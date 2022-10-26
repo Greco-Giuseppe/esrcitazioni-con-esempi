@@ -66,8 +66,12 @@ c = 500
 if a > b or a > c:
   print("At least one of the conditions is True")
 
-#nasted if ? 
-#pass ? 
+#nasted if , concatenazione di if in caso in cui sia verificato il primo if 
+
+#pass , non si può lasciare vuoto dopo if , quindi si mette  ''pass''
+
+
+
 
 
 
