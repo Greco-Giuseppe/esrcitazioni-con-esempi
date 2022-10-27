@@ -3,3 +3,12 @@
 
 listacittà = [ "torino" , "mlano" , "roma" ]
 listapersone = [ "Luca" , "Giovanni" , "Marco"]
+for x in listacittà :
+    for y in listapersone :
+        print (x,y)
+
+listacittà = [ "torino" , "mlano" , "roma" ]
+listapersone = [ "Luca" , "Giovanni" , "Marco"]
+for x in listapersone :
+    for y in listacittà :
+        print (x,y)
