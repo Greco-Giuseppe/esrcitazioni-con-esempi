@@ -1,4 +1,4 @@
-#Riempi tre variabili (x, y ,z) con dei valori. Se x è maggiore di y e maggiore di z stampa ‘X è il numero maggiore’ 
+#Rifai l’esercizio C stampando il nome della variabile con il valore maggiore
 import random
 x= random.randrange(1,10)
 y= random.randrange(1,10)
