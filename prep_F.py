@@ -2,5 +2,5 @@
 lista5 = [ 2 , 90 , 82 , 43 , 12 ]
 x = 81
 for y in lista5 :
-    if y>x :
+    if y > x :
         print (y)
