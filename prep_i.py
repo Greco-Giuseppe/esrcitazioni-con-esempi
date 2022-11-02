@@ -5,8 +5,9 @@
 animali = ["lucertola","cane","gatto","pipistrello","farfalla"]
 numeri = [35 , 41 , 56 , 4 , 2 ]
 z = animali + numeri 
-print (z)
-for x in numeri :
-    if x > 5 :
-        print (x)
+
+for x in z :
+    if x==int and x<=5:
+        continue
+print (x)
         
