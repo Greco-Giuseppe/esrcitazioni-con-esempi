@@ -41,5 +41,10 @@ def my_function(child3, child2, child1):
 my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
 #notare come assegnando ad ogni argomernto un nome non necessariamente bisogni utilizzare gli ordini degli argomenti 
 
+# utilizzo "*" numero variabile di argomenti , a differenza del singolo asterisco(per le liste) in cui ci si accede con il numero (es. [2]) , in questo caso 
+# ( nel dizionario ) vi accedo tramite nome 
+def my_function(**kid):
+  print("His last name is " + kid["lname"])
 
+my_function(fname = "Tobias", lname = "Refsnes")
 
