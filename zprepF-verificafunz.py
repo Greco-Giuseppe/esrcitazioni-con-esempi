@@ -5,6 +5,10 @@
 num=int(input("quanti numeri:"))
 lista = []
 for x in range (num) :
-     y = int(input("dammi un numero:")
+    y = int(input("immetti un numero:"))
     lista.append(y)
-print (lista)
+ 
+def istogramma(lista) :
+    for x in lista :
+        print ("*"*x)
+istogramma(lista)        
