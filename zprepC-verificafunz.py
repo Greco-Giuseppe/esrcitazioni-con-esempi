@@ -1,11 +1,13 @@
 #C Chiedi all’utente di inserire 5 numeri e stampa solo i numeri pari in ordine inverso
 
 lista = []
-for x in range (5) :
-    lista.append(int(input("inserire un numero:" )))
+
+for x in range (5) : 
+    n = int(input("dammi un numero: "))
+    z = int(n/2)
+    if (z*2)==n :
+        lista.append(n)
 lista.reverse()
-for e in lista :
-     z = int ( e/2 )
-     if (z*2) == e :
-          print (e)
+print (lista)
+
      
